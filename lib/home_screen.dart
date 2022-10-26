@@ -1,5 +1,5 @@
 import 'package:app_anglais/data.dart';
-import 'package:app_anglais/pages.dart';
+import 'package:app_anglais/pages.dart'; 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'widgets.dart';
@@ -65,7 +65,7 @@ class home extends StatelessWidget {
                     child: Container(
                         child: Image(
                       image: AssetImage(
-                        'assets/homeLogoApp2.png',
+                        'assets/homeLogoApp.png',
                       ),
                       fit: BoxFit.contain,
                       height: 190,
